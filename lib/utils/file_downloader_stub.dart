@@ -9,3 +9,7 @@ bool triggerBrowserDownload({
 bool openBrowserUrl(String url) {
   return false;
 }
+
+Future<String?> fetchFreshAssetString(String assetPath) async {
+  return null;
+}

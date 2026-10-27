@@ -127,7 +127,9 @@ class _DateInvitationHomePageState extends State<DateInvitationHomePage>
 
   Future<void> _loadJsonData() async {
     try {
-      final rawJson = await rootBundle.loadString('assets/date_options.json');
+      final rawJson =
+          await fetchFreshAssetString('assets/date_options.json') ??
+              await rootBundle.loadString('assets/date_options.json');
       final parsed = DateInvitationData.fromJsonString(rawJson);
       if (!mounted) return;
       _initializeWithData(parsed);

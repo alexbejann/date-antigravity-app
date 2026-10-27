@@ -24,3 +24,14 @@ bool openBrowserUrl(String url) {
   html.window.open(url, '_blank');
   return true;
 }
+
+Future<String?> fetchFreshAssetString(String assetPath) async {
+  try {
+    final cacheBuster = DateTime.now().millisecondsSinceEpoch;
+    return await html.HttpRequest.getString(
+      'assets/$assetPath?v=$cacheBuster',
+    );
+  } catch (_) {
+    return null;
+  }
+}

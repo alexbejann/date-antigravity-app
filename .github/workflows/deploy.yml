@@ -32,9 +32,9 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build Flutter Web for GitHub Pages
+      - name: Build Flutter Web for GitHub Pages (No Service Worker Cache)
         run: |
-          flutter build web --release --base-href "/date-antigravity-app/"
+          flutter build web --release --pwa-strategy=none --base-href "/date-antigravity-app/"
           touch build/web/.nojekyll
 
       - name: Deploy to gh-pages branch
