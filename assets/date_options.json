@@ -1,0 +1,166 @@
+{
+  "inviterName": "Alex",
+  "partnerName": "My Favorite Human",
+  "hero": {
+    "badge": "URGENT ROMANTIC DISPATCH 💌",
+    "title": "Hey Gorgeous, Will You Go On a Date With Me?",
+    "subtitle": "Warning: Saying yes includes complimentary butterflies, questionable jokes, Unlimited Attention™, and an unforgettable feast.",
+    "yesButtonText": "YES, Obviously! 💖",
+    "noButtonInitialText": "No thanks 🙄",
+    "noButtonPleadingMessages": [
+      "Wait... are you sure? 🥺",
+      "Nice try, that button is decorative! 🏃‍♂️",
+      "Error 404: 'No' not found in my heart 💔",
+      "I already reserved the table for Saturday at 17:45! 😭",
+      "What if I promise Indonesian Rijsttafel?! 🇮🇩🍛",
+      "My lawyer says you legally have to click YES 📜",
+      "Look how big and shiny the YES button is! ✨",
+      "Okay now you're just testing my cardio 😤",
+      "Resistance is futile, cutie! 💕"
+    ],
+    "termsDisclaimer": "* By clicking YES you agree to hold hands, let me steal one (1) bite from your plate, and be ready on Saturday at 17:45."
+  },
+  "dates": [
+    {
+      "id": "sat_1745",
+      "dayLabel": "Saturday @ 17:45",
+      "dateText": "This Saturday",
+      "timeText": "17:45",
+      "vibe": "Golden Hour Romance ✨ (VIP Reserved)",
+      "emoji": "🌅",
+      "funnyNote": "The mathematically proven most romantic time of the week. Table is locked & loaded for 17:45 sharp!",
+      "tooltip": "100% chance of me staring at you instead of the menu 💖",
+      "isDestined": true,
+      "riggedExcuse": ""
+    },
+    {
+      "id": "fri_evening",
+      "dayLabel": "Friday Night",
+      "dateText": "This Friday",
+      "timeText": "20:00",
+      "vibe": "Too Tired From Work 😴",
+      "emoji": "🌙",
+      "funnyNote": "Why rush after work on Friday when we can make Saturday at 17:45 an entire romantic evening?",
+      "tooltip": "Spoiler: Try clicking this, I dare you 😉",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Schedule Override: Friday called in sick! My psychic confirmed Saturday at 17:45 is 1,000% more romantic. Switching back to Saturday @ 17:45! 💕"
+    },
+    {
+      "id": "sun_late",
+      "dayLabel": "Sunday Night",
+      "dateText": "This Sunday",
+      "timeText": "19:30",
+      "vibe": "Sunday Scaries 🧸",
+      "emoji": "🕯️",
+      "funnyNote": "Sunday is for recovering from our food coma after our Saturday night feast.",
+      "tooltip": "Nice try, but Saturday at 17:45 is unbeatable!",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Official Decree: Waiting until Sunday is illegal under the Cute Couple Act of 2026! Snap-selecting Saturday at 17:45 instead! 😘"
+    },
+    {
+      "id": "year_2048",
+      "dayLabel": "Sometime in 2048",
+      "dateText": "Feb 30, 2048",
+      "timeText": "17:45",
+      "vibe": "Time Traveler Mode 🚀",
+      "emoji": "👵",
+      "funnyNote": "Sure, we'll still be cute when we're 80, but I'm way too impatient to wait that long.",
+      "tooltip": "Do not test my patience, missy!",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Time Machine Broken: I can't wait until 2048 to see you! Let's stick to THIS Saturday at 17:45! 💖"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "lestari_arnhem",
+      "name": "Lestari Indonesisch Restaurant",
+      "cuisine": "Authentic Indonesian & Rijsttafel",
+      "emoji": "🇮🇩",
+      "priceLevel": "$$$",
+      "vibeTag": "Cozy, Exotic & Romantic 🌟",
+      "address": "Nieuwstraat 50, 6811 HX Arnhem",
+      "mapsUrl": "https://maps.app.goo.gl/5w67QseydzxbkMb66",
+      "description": "Warm, intimate atmosphere right near the Rijnkade with the most incredible traditional Indonesian Rijsttafel for two, homemade sambal, saté, and 20+ flavorful dishes to share.",
+      "funnyPerk": "Sharing a 20-dish Rijsttafel means you don't even have to choose just one meal—we get EVERYTHING.",
+      "specialDish": "Rijsttafel Ibu / Anak, Saté & Udang Goreng",
+      "dressCode": "Gorgeous as always (stretchy waistbands secretly approved)",
+      "isDestined": true,
+      "riggedExcuse": ""
+    },
+    {
+      "id": "decoy_italian",
+      "name": "Luigi's Imaginary Pasta Shack",
+      "cuisine": "Overbooked Italian",
+      "emoji": "🍝",
+      "priceLevel": "$$$",
+      "vibeTag": "Out of Spaghetti",
+      "address": "404 Nowhere Street",
+      "mapsUrl": "https://maps.app.goo.gl/5w67QseydzxbkMb66",
+      "description": "They used to have pasta, until the chef accidentally booked a flight to Bali because he was craving Indonesian food instead.",
+      "funnyPerk": "Wait... why eat plain pasta when we can have a legendary Indonesian Rijsttafel at Lestari?!",
+      "specialDish": "Air & Breadsticks",
+      "dressCode": "Disappointment",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Kitchen Alert: Luigi just called—he ran out of spaghetti and told us to go to Lestari Indonesisch Restaurant at 17:45 instead! 🇮🇩✨"
+    },
+    {
+      "id": "decoy_sushi",
+      "name": "Raw Fish & Regrets Izakaya",
+      "cuisine": "Tiny Portions",
+      "emoji": "🍣",
+      "priceLevel": "$$$$",
+      "vibeTag": "Still Hungry After",
+      "address": "88 Mirage Ave",
+      "mapsUrl": "https://maps.app.goo.gl/5w67QseydzxbkMb66",
+      "description": "Three microscopic pieces of cucumber roll for €90. Guaranteed to make us stop for snacks on the way home.",
+      "funnyPerk": "Zero chance of beating Lestari's Rijsttafel.",
+      "specialDish": "1.5 Grains of Rice",
+      "dressCode": "Hungry Chic",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Boyfriend Veto: Friends don't let girlfriends leave dinner hungry! Switching you back to Lestari Indonesisch Restaurant for a royal Rijsttafel feast! 🍛💖"
+    },
+    {
+      "id": "decoy_french",
+      "name": "Le Petit Pretentious Bistro",
+      "cuisine": "Microscopic French Foam",
+      "emoji": "🥐",
+      "priceLevel": "$$$$",
+      "vibeTag": "Waiter Judges Our Pronunciation",
+      "address": "19 Rue de Snob",
+      "mapsUrl": "https://maps.app.goo.gl/5w67QseydzxbkMb66",
+      "description": "A single leaf of kale drizzled with lemon mist served on a skateboard.",
+      "funnyPerk": "Our Democracy™ allows you to vote for anything, as long as the winner is Lestari.",
+      "specialDish": "Artisanal Water Vapor",
+      "dressCode": "Monocle Required",
+      "isDestined": false,
+      "riggedExcuse": "🚨 Rigged Election Notice: After a thorough recount of the ballots, Lestari Indonesisch Restaurant won with 100% of the vote! 🗳️🇮🇩"
+    }
+  ],
+  "extras": [
+    {
+      "id": "flowers",
+      "label": "Bring me flowers 💐",
+      "tooltip": "Already in the plans, honestly"
+    },
+    {
+      "id": "dessert",
+      "label": "Spekkoek / Sweet Treat After 🍰",
+      "tooltip": "There is always a second stomach for dessert"
+    },
+    {
+      "id": "passenger_princess",
+      "label": "VIP Escort to Nieuwstraat 50 🚗",
+      "tooltip": "Door opened for you + VIP treatment all evening"
+    },
+    {
+      "id": "photoshoot",
+      "label": "Take cute candid photos of me 📸",
+      "tooltip": "I've been practicing my paparazzi angles"
+    },
+    {
+      "id": "steal_hoodie",
+      "label": "I get to borrow your jacket if I'm cold 🧥",
+      "tooltip": "Note: 'Borrow' may mean keep forever"
+    }
+  ]
+}
